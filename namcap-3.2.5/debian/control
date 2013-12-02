@@ -1,0 +1,41 @@
+Source: archlinux-pacman
+Section: devel
+Priority: optional
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Build-Depends: debhelper (>= 9.0.0),
+				autotools-dev,
+				binutils-multiarch,
+				libglib2.0-0,
+				mime-support,
+				libpopt0,
+				gettext,
+				file,
+				libxml2,
+				libunistring0,
+				libmagic1,
+				libcurl4-gnutls-dev,
+				locales-all,
+				libarchive-dev,
+				libcroco3,
+				locales,
+				libc6-i386,
+				libsigsegv2,
+				pkg-config,
+				libssl-dev,
+				gawk,
+				cpio,
+				asciidoc,
+				tzdata
+Standards-Version: 3.9.4
+Homepage: https://www.archlinux.org/pacman/#_releases
+#Vcs-Git: git://git.debian.org/collab-maint/archlinux-pacman.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/archlinux-pacman.git;a=summary
+
+Package: archlinux-pacman
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: archlinux package manager
+ archlinux and others package manager
+ braught to debian to facilitate running
+ an archlinux chroot on a debian host
+ 
