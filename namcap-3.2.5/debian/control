@@ -1,31 +1,8 @@
-Source: archlinux-pacman
+Source: namcap
 Section: devel
 Priority: optional
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
-Build-Depends: debhelper (>= 9.0.0),
-				autotools-dev,
-				binutils-multiarch,
-				libglib2.0-0,
-				mime-support,
-				libpopt0,
-				gettext,
-				file,
-				libxml2,
-				libunistring0,
-				libmagic1,
-				libcurl4-gnutls-dev,
-				locales-all,
-				libarchive-dev,
-				libcroco3,
-				locales,
-				libc6-i386,
-				libsigsegv2,
-				pkg-config,
-				libssl-dev,
-				gawk,
-				cpio,
-				asciidoc,
-				tzdata
+Build-Depends: debhelper (>= 9.0.0)
 Standards-Version: 3.9.4
 Homepage: https://www.archlinux.org/pacman/#_releases
 #Vcs-Git: git://git.debian.org/collab-maint/archlinux-pacman.git
@@ -34,8 +11,7 @@ Homepage: https://www.archlinux.org/pacman/#_releases
 Package: archlinux-pacman
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: archlinux package manager
- archlinux and others package manager
- braught to debian to facilitate running
- an archlinux chroot on a debian host
+Description: archlinux package checking tool
+ braught to debian as part of the effort
+ to get a naitive arch chroot on a debian box
  

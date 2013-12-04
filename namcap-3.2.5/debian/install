@@ -1,3 +1,0 @@
-debian/mirrorlist /etc/pacman.d/
-debian/pacman.conf /etc/
-debian/makepkg.conf /etc/
