@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: pacman
-Source: https://www.archlinux.org/pacman/#_releases
+Upstream-Name: namcap
+Source: http://projects.archlinux.org/namcap.git/
 
 
 # If you want to use GPL v2 or later for the /debian/* files use 
